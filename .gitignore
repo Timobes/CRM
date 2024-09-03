@@ -1,1 +1,7 @@
+# all
+*.env
+
+# Frontend
+
+# backend
 /backend/node_modules
