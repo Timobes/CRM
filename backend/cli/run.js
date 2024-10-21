@@ -1,8 +1,11 @@
+// Run = node run.js "name" 
+// "name" - only small case!
+// create = "name" Router, Controller, Service 
+
 const { program } = require('commander');
 const fs = require('fs');
 
 const createDirectory = (name) => {
-    // let name = 'tim'
     let bigName = name[0].toUpperCase() + name.substring(1)
     
     const dirs = [`../routers/${name}Router.js`, `../controllers/${name}Controller.js`, `../services/${name}Service.js`]

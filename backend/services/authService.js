@@ -1,5 +1,5 @@
 
-class Run.jsService {
+class AuthService {
     async name(body) {
         try {
             const test = body
@@ -11,5 +11,5 @@ class Run.jsService {
     }
 }
 
-module.exports = new Run.jsService 
+module.exports = new AuthService 
     
